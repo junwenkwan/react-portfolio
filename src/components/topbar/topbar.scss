@@ -1,0 +1,29 @@
+@import "../../global.scss";
+
+.topbar{
+    width:100%;
+    height: 80px;
+    background-color: $maincolor;
+    color: $maincolor;
+    position: fixed;
+    top: 0;
+    z-index: 3;
+    transition: all 1s ease;
+
+    .wrapper{
+        padding: 22px 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+        .logo{
+            font-size: 30px;
+            font-weight: 600;
+            text-decoration: none;
+            color: white;
+            margin-right: 50px;
+        }
+
+    }
+
+}
