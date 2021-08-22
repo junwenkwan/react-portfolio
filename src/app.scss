@@ -1,12 +1,12 @@
 @import "global.scss";
 
 .app{
-    height: 100vh;
+    height: 100%;
 
     .sections{
         width: 100%;
         height: calc(100vh - 60px);
-        position: relative;
+        position: absolute;
         top: 60px;
         scroll-behavior: smooth;
         scrollbar-width: none;
