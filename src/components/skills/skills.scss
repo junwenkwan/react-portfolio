@@ -1,0 +1,87 @@
+@import "../../global.scss";
+
+.skills{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    h1{
+        font-size: 28px;
+        color: $maincolor;
+
+        @include mobile{
+            font-size: 18px;
+        }
+
+    }
+
+    ul{
+        margin: 10px;
+        padding: 0;
+        list-style: none;
+        display: flex;
+
+        @include mobile{
+            margin: 10px 0;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    }
+
+    .container{
+        width: 70%;
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+        flex-wrap: wrap;
+
+        @include mobile{
+            width: 100%;
+        }
+
+        .item{
+            width: 200px;
+            height: 200px;
+            border-radius: 20px;
+            border: 2px solid lightgrey;
+            margin: 10px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            position: relative;
+            transition: all 0.1s ease;
+            cursor: pointer;
+            
+
+            @include mobile{
+                margin: 5px 5px;
+                width: 100px;
+                height: 100px;
+            }
+
+            h3{
+                position: absolute;
+                
+                @include mobile{
+                    font-size: 14px;
+                }
+            }
+
+            img{
+                width: 80%;
+                height: 80%;
+                z-index: 1;
+            }
+
+            &:hover{
+                background-color: $maincolor;
+                img{
+                    opacity: 0.4;
+                    z-index: 0;
+                }
+            }
+        }
+    }
+}
