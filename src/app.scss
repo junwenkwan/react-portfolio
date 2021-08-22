@@ -3,10 +3,15 @@
 .app{
     height: 100%;
 
+    .topbar{
+        width: 100%;
+        position: absolute;
+    }
+
     .sections{
         width: 100%;
         top: 60px;
-        height: auto;
+        height: calc(100vh - 60px);
         position: absolute;
         scroll-behavior: smooth;
         scrollbar-width: none;
