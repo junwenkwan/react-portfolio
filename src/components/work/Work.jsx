@@ -8,7 +8,7 @@ export default function Work() {
         <div className="work">
             <h1>Work Experience</h1>
 
-            <VerticalTimeline>
+            <VerticalTimeline layout={"1-column-left"}>
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
                     contentStyle={{ background: '#15023a', color: '#fff' }}
