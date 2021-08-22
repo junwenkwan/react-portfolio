@@ -44,7 +44,7 @@
             font-size: 28px;
 
             @include mobile{
-                font-size: 14px;
+                font-size: 16px;
             }
         }
 
@@ -63,7 +63,7 @@
             font-size: 16px;
             
             @include mobile{
-                display: None;
+                font-size: 12px;
             }
         }
 
