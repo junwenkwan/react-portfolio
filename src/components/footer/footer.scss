@@ -9,7 +9,7 @@
         padding: 10px 20px;
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: left;
         
         h3{
             font-size: 18px;
@@ -17,6 +17,15 @@
 
             @include mobile{
                 font-size: 14px;
+            }
+        }
+
+        .pikachu{
+            width: 50px;
+            padding-left: 10px;
+
+            @include mobile{
+                width: 40px;
             }
         }
 
