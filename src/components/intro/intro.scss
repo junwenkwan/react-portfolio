@@ -21,6 +21,19 @@
     @include mobile{
       padding-left: 0;
     }
+    
+    .magikarp{
+      height: 100px;
+      width: 100px;
+      padding-bottom: 30px;
+
+      @include mobile{
+        height: 70px;
+        width: 70px;
+        padding-bottom: 20px;
+      }
+
+    }
 
     h1 {
       font-size: 60px;
