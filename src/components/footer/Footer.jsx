@@ -5,7 +5,7 @@ export default function Footer() {
         <div className="footer">
             <div className="wrapper">
                 <h3>For business inquiries: <br/> jkwan0001@gmail.com</h3>
-                <img src="../assets/pikachu.gif" alt="" className="pikachu"/>
+                <img src="../assets/magikarp.gif" alt="" className="pikachu"/>
             </div>
         </div>
     )
