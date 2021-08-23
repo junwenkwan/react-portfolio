@@ -34,10 +34,8 @@ export default function Projects() {
       <div className="container">
         {data.map((d) => (
           <div className={d.featured ? "card featured" : "card"}>
-            <div className="center">
-              <h3><a href={d.link} target="_blank" rel="noreferrer">{d.title}</a></h3>
-              <p>{d.desc}</p>
-            </div>
+            <h3><a href={d.link} target="_blank" rel="noreferrer">{d.title}</a></h3>
+            <p>{d.desc}</p>
           </div>
         ))}
       </div>

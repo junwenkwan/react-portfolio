@@ -33,10 +33,14 @@
       border-radius: 10px;
       display: flex;
       flex-direction: column;
-      justify-content: space-around;
+      justify-content: center;
+      align-items: center;
       padding: 20px;
-      transition: all 0.5s ease;
-      background-color: $maincolor;
+      transition: all 0.8s ease;
+
+      background: linear-gradient(to right, rgb(255, 0, 51) 50%, $maincolor 50%);
+      background-size: 200% 100%;
+      background-position: right bottom;
 
       @include mobile{
         width: 70%;
@@ -55,36 +59,39 @@
       }
 
       &:hover{
-          transform: scale(1.05);
-      }
-
-      .center {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        background-position: left bottom;
 
         h3{
-          padding-bottom: 10px;
-          
           a{
             color: white;
           }
-
-          @include mobile{
-            padding-bottom: 5px;
-            font-size: 14px;
-          }
         }
-
         p{
           color: white;
-
-          @include mobile{
-            font-size: 12px;
-          }
         }
       }
+
+      h3{
+        padding-bottom: 10px;
+        
+        a{
+          color: white;
+        }
+
+        @include mobile{
+          padding-bottom: 5px;
+          font-size: 14px;
+        }
+      }
+
+      p{
+        color: white;
+
+        @include mobile{
+          font-size: 12px;
+        }
+      }
+      
     }
   }
 }
