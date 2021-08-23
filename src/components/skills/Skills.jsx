@@ -31,8 +31,8 @@ export default function Skills() {
                     <h3>Jupyter</h3>
                 </div>
                 <div className="item">
-                    <img src="../assets/react.svg" alt=""></img>
-                    <h3>ReactJS</h3>
+                    <img src="../assets/opencv.svg" alt=""></img>
+                    <h3>OpenCV</h3>
                 </div>
                 <div className="item">
                     <img src="../assets/docker.svg" alt=""></img>
