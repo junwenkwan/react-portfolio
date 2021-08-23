@@ -23,7 +23,7 @@ export default function Projects() {
       id: 3,
       title: "NASA Space App",
       desc:
-        "Leverage NASA data to perform prediction of wildfires across countries",
+        "Leverage NASA data to perform prediction of wildfires across countries.",
       link:
         "https://2020.spaceappschallenge.org/challenges/confront/spot-fire-3/teams/the-universe-academy/project"
     },
