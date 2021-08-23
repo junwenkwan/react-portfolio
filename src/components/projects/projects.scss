@@ -33,7 +33,7 @@
       border-radius: 10px;
       display: flex;
       flex-direction: column;
-      justify-content: center;
+      justify-content: space-evenly;
       align-items: center;
       padding: 20px;
       transition: all 0.8s ease;
@@ -45,6 +45,17 @@
       @include mobile{
         width: 70%;
         margin: 10px 0;
+      }
+
+      .pokeball{
+        height: 35px;
+        width: 35x;
+        
+        @include mobile{
+          height: 25px;
+          width: 25px;
+        }
+
       }
 
       &.featured{

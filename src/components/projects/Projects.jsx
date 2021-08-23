@@ -7,6 +7,7 @@ export default function Projects() {
       title: "Gesture Recognition",
       desc:
         "Develop a deep learning solution to recognize human's gesture.",
+      featured: false,
       link:
         "https://github.com/junwenkwan/human-robot-handover"
     },
@@ -24,6 +25,7 @@ export default function Projects() {
       title: "NASA Space App",
       desc:
         "Leverage NASA data to perform prediction of wildfires across countries.",
+      featured: false,
       link:
         "https://2020.spaceappschallenge.org/challenges/confront/spot-fire-3/teams/the-universe-academy/project"
     },
@@ -34,6 +36,7 @@ export default function Projects() {
       <div className="container">
         {data.map((d) => (
           <div className={d.featured ? "card featured" : "card"}>
+            <img src="../assets/pokeball.png" alt="" className="pokeball"/>
             <h3><a href={d.link} target="_blank" rel="noreferrer">{d.title}</a></h3>
             <p>{d.desc}</p>
           </div>
