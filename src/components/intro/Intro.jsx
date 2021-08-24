@@ -17,7 +17,12 @@ export default function Intro() {
     return (
         <div className="intro" id="intro">          
             <div className="wrapper">
-                <img src="../assets/magikarp.png" alt="" className="magikarp"/>
+                <div className="div" className="container">
+                    <img src="../assets/bulbasaur.png" alt="" className="icon"/>
+                    <img src="../assets/charmander.png" alt="" className="icon"/>
+                    <img src="../assets/squirtle.png" alt="" className="icon"/>
+                </div>
+                
                 <h2>Hi, my name is</h2>
                 <h1>Jun Kwan</h1>
                 <h3>I am a <span ref={textRef}></span></h3>
