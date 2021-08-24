@@ -24,8 +24,8 @@
     
     .container{
       .icon{
-        height: 120px;
-        width: 120px;
+        height: 110px;
+        width: 110px;
         padding: 2px;
 
         @include mobile{
@@ -39,10 +39,9 @@
     }
 
     h1 {
-      font-size: 60px;
+      font-size: 50px;
       margin: 10px 0;
       color: $maincolor;
-
       @include mobile{
         font-size: 40px;
       }
@@ -50,6 +49,7 @@
     h2 {
       font-size: 30px;
       color: $maincolor;
+      
       @include mobile{
         font-size: 20px;
       }

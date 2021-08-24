@@ -17,7 +17,7 @@ export default function Intro() {
     return (
         <div className="intro" id="intro">          
             <div className="wrapper">
-                <div className="div" className="container">
+                <div className="container">
                     <img src="../assets/bulbasaur.png" alt="" className="icon"/>
                     <img src="../assets/charmander.png" alt="" className="icon"/>
                     <img src="../assets/squirtle.png" alt="" className="icon"/>
