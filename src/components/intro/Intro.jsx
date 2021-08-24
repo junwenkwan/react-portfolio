@@ -18,9 +18,7 @@ export default function Intro() {
         <div className="intro" id="intro">          
             <div className="wrapper">
                 <div className="container">
-                    <img src="../assets/bulbasaur.png" alt="" className="icon"/>
-                    <img src="../assets/charmander.png" alt="" className="icon"/>
-                    <img src="../assets/squirtle.png" alt="" className="icon"/>
+                    <img src="../assets/mario.png" alt="" className="icon"/>
                 </div>
                 
                 <h2>Hi, my name is</h2>

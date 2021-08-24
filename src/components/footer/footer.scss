@@ -20,12 +20,12 @@
             }
         }
 
-        .pikachu{
-            width: 90px;
+        .icon{
+            width: 50px;
             padding-left: 10px;
 
             @include mobile{
-                width: 70px;
+                width: 40px;
             }
         }
 
