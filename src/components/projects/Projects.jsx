@@ -1,4 +1,5 @@
 import "./projects.scss";
+import GitHubIcon from '@material-ui/icons/GitHub';
 
 export default function Projects() {
   const data = [
@@ -36,8 +37,8 @@ export default function Projects() {
       <div className="container">
         {data.map((d) => (
           <div className={d.featured ? "card featured" : "card"}>
-            <img src="../assets/mario.png" alt="" className="icon"/>
-            <h3><a href={d.link} target="_blank" rel="noreferrer">{d.title}</a></h3>
+            <a href={d.link} target="_blank" rel="noreferrer"><GitHubIcon className='github' style={{ color: 'white' }} /></a>
+            <h3>{d.title}</h3>
             <p>{d.desc}</p>
           </div>
         ))}
