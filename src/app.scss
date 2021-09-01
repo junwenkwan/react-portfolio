@@ -16,7 +16,13 @@
             height: calc(100vh - 60px);
             scroll-snap-align: start;
         }
-
+        
+        .about{
+            width: 100vw;
+            height: auto;
+            scroll-snap-align: start;
+        } 
+        
         .work{
             width: 100vw;
             height: auto;
