@@ -3,7 +3,7 @@ import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 
 export default function Preloader() {
     return (
-        <div style={{width: "100vw", height:"100vh", display: "flex", alignItems : "center", justifyContent : "center"}}>
+        <div style={{width: "100vw", height:"90vh", display: "flex", alignItems : "center", justifyContent : "center"}}>
             <Loader
                 type="Grid"
                 color="#15023a"
