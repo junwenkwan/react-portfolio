@@ -27,13 +27,46 @@
         height: 120px;
         width: 120px;
         padding: 2px;
-        filter: drop-shadow(0 0 0.3rem $maincolor);
+        animation: glow 4s infinite;
+        @keyframes glow {
+          from {
+            filter: drop-shadow(0 0 0.0rem white)
+          }
+          25%{
+            filter: drop-shadow(0 0 0.35rem $maincolor);
+          }
+          50%{
+            filter: drop-shadow(0 0 0.0rem white)
+          }
+          75%{
+            filter: drop-shadow(0 0 0.35rem rgb(255, 0, 51))
+          }
+          to {
+            filter: drop-shadow(0 0 0.0rem white);
+          }
+        }
 
         @include mobile{
           height: 80px;
           width: 80px;
           padding: 1px;
-          filter: drop-shadow(0 0 0.2rem $maincolor);
+          @keyframes glow {
+            from {
+              filter: drop-shadow(0 0 0.0rem white)
+            }
+            25%{
+              filter: drop-shadow(0 0 0.2rem $maincolor);
+            }
+            50%{
+              filter: drop-shadow(0 0 0.0rem white)
+            }
+            75%{
+              filter: drop-shadow(0 0 0.2rem rgb(255, 0, 51))
+            }
+            to {
+              filter: drop-shadow(0 0 0.0rem white);
+            }
+          }
         }
 
       }
