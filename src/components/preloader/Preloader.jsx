@@ -1,5 +1,5 @@
 import Lottie from 'react-lottie';
-import * as animationData from './73810-business-idea-animation.json'
+import * as animationData from './74468-rocket.json'
 
 export default function Preloader() {
     const defaultOptions = {
@@ -14,10 +14,10 @@ export default function Preloader() {
     return (
         <div style={{width: "100vw", height:"auto", display: "flex", flexDirection: "column", alignItems : "center", justifyContent : "center"}}>
             <Lottie options={defaultOptions}
-              height={400}
-              width={400}/>
+              height={300}
+              width={300}/>
             <p style={{color:'#15023a'}}>Animation by</p>
-            <p style={{color:'#15023a'}}>Mahendra Bhunwal</p>
+            <p style={{color:'#15023a'}}>Lex Komkov</p>
             
         </div>
     )
