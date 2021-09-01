@@ -27,11 +27,12 @@
     @include mobile{   
       padding-bottom: 50px;
     }
-    
+
     .text{
       width: 650px;
+
       @include mobile{   
-        width: 90%;
+        width: 90vw;
       }
 
       p{
@@ -39,6 +40,7 @@
         text-justify: auto;
         font-size: 20px;
         color: $maincolor;
+        padding-bottom: 30px;
 
         @include mobile{
           font-size: 14px;
