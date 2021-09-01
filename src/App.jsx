@@ -1,4 +1,3 @@
-import Topbar from "./components/topbar/Topbar"
 import Intro from "./components/intro/Intro"
 import About from "./components/about/About"
 import Work from "./components/work/Work"
@@ -10,7 +9,6 @@ import "./app.scss"
 function App() {
   return (
     <div className="app">
-      <Topbar/>
       <div className="sections">
         <Intro/>
         <About/>

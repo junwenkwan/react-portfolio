@@ -5,7 +5,6 @@
 
     .sections{
         width: 100%;
-        top: 60px;
         height: auto;
         position: absolute;
         scroll-behavior: smooth;
@@ -13,7 +12,7 @@
 
         .intro{
             width: 100vw;
-            height: calc(100vh - 60px);
+            height: 100vh;
             scroll-snap-align: start;
         }
         
