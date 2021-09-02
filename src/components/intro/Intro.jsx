@@ -1,6 +1,8 @@
 import "./intro.scss"
 import {init} from 'ityped'
 import { useEffect, useRef } from "react";
+import Lottie from 'react-lottie';
+import * as animationData from './39701-robot-bot-3d.json'
 
 export default function Intro() {
     const textRef = useRef()
@@ -14,11 +16,23 @@ export default function Intro() {
         });
     }, [])
 
+    const defaultOptions = {
+        loop: true,
+        autoplay: true, 
+        animationData: animationData.default,
+        rendererSettings: {
+          preserveAspectRatio: 'xMidYMid slice'
+        }
+      };
+
     return (
         <div className="intro" id="intro">          
             <div className="wrapper">
                 <div className="container">
-                    <img src="../assets/mario.png" alt="" className="icon"/>
+                    <Lottie options={defaultOptions}
+                    height={350}
+                    width={350}
+                    />
                 </div>
                 
                 <h2>Hi, my name is</h2>

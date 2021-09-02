@@ -21,39 +21,6 @@
     @include mobile{
       padding-left: 0;
     }
-    
-    .container{
-      .icon{
-        height: 120px;
-        width: 120px;
-        padding: 2px;
-        animation: glow 2s infinite;
-        @keyframes glow {
-          from {
-            filter: drop-shadow(0 0 0.0rem white);
-          }
-          50%{
-            filter: drop-shadow(0 0 0.3rem $maincolor)
-          }
-        }
-
-        @include mobile{
-          height: 80px;
-          width: 80px;
-          padding: 1px;
-          @keyframes glow {
-            from {
-              filter: drop-shadow(0 0 0.0rem white);
-            }
-            50%{
-              filter: drop-shadow(0 0 0.2rem $maincolor)
-            }
-          }
-        }
-
-      }
-
-    }
 
     h1 {
       font-size: 50px;
