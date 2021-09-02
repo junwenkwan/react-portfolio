@@ -30,8 +30,9 @@ export default function Intro() {
             <div className="wrapper">
                 <div className="container">
                     <Lottie options={defaultOptions}
-                    height={350}
-                    width={350}
+                    height={300}
+                    width={300}
+                    isClickToPauseDisabled={true}
                     />
                 </div>
                 

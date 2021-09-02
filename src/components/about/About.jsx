@@ -18,8 +18,9 @@ export default function About() {
             <div className="wrapper">
                 <div className="lottie">
                     <Lottie options={defaultOptions}
-                    height={400}
-                    width={400}
+                    height={350}
+                    width={350}
+                    isClickToPauseDisabled={true}
                     />
                 </div>
                 <div className="text">
