@@ -4,6 +4,21 @@
     width:100%;
     background-color: $maincolor;
     color: $maincolor;
+    
+    .credit{
+        padding: 10px 20px;
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        h3{
+            font-size: 18px;
+            color: white;
+
+            @include mobile{
+                font-size: 14px;
+            }
+        }
+    }
 
     .wrapper{
         padding: 10px 20px;
