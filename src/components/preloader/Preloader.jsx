@@ -16,7 +16,7 @@ export default function Preloader() {
             <Lottie options={defaultOptions}
               height={300}
               width={300}/>
-            <p style={{color:'#15023a'}}>Loading...</p>
+            <h3 style={{color:'#15023a'}}>Loading...</h3>
             
         </div>
     )
