@@ -7,35 +7,35 @@ export default function Skills() {
             
             <div className="container">
                 <div className="item">
-                    <img src="../assets/python.svg" alt=""></img>
+                    <img src="../assets/python.svg" alt="" draggable="false"/>
                     <h3>Python</h3>
                 </div>
                 <div className="item">
-                    <img src="../assets/cpp.svg" alt=""></img>
+                    <img src="../assets/cpp.svg" alt="" draggable="false"/>
                     <h3>C++</h3>
                 </div>
                 <div className="item">
-                    <img src="../assets/sql.svg" alt=""></img>
+                    <img src="../assets/sql.svg" alt="" draggable="false"/>
                     <h3>PostgreSQL</h3>
                 </div>
                 <div className="item">
-                    <img src="../assets/git.svg" alt=""></img>
+                    <img src="../assets/git.svg" alt="" draggable="false"/>
                     <h3>Git</h3>
                 </div>
                 <div className="item">
-                    <img src="../assets/linux.svg" alt=""></img>
+                    <img src="../assets/linux.svg" alt="" draggable="false"/>
                     <h3>Linux</h3>
                 </div>
                 <div className="item">
-                    <img src="../assets/jupyter.svg" alt=""></img>
+                    <img src="../assets/jupyter.svg" alt="" draggable="false"/>
                     <h3>Jupyter</h3>
                 </div>
                 <div className="item">
-                    <img src="../assets/opencv.svg" alt=""></img>
+                    <img src="../assets/opencv.svg" alt="" draggable="false"/>
                     <h3>OpenCV</h3>
                 </div>
                 <div className="item">
-                    <img src="../assets/docker.svg" alt=""></img>
+                    <img src="../assets/docker.svg" alt="" draggable="false"/>
                     <h3>Docker</h3>
                 </div>
             </div>
