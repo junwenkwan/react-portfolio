@@ -21,7 +21,7 @@ export default function Work() {
                     <h4 className="vertical-timeline-element-subtitle">Mar 2021 - Sep 2021</h4>
                     <p>
                     - Develop deep learning solutions for object detection and classification from high-resolution imagery <br/>
-                    - Deploy deep learning solutions on NVIDIA Xavier (ARM) hardware devices
+                    - Deploy deep learning solutions on NVIDIA Jetson hardware devices
                     </p>
                 </VerticalTimelineElement>
 
@@ -52,7 +52,7 @@ export default function Work() {
                     <h4 className="vertical-timeline-element-subtitle">Clayton, Victoria, Australia</h4>
                     <h4 className="vertical-timeline-element-subtitle">Dec 2019 - Dec 2020</h4>
                     <p>
-                    - Develop a deep neural network to perform segmantic segmentation on human hands <br/>
+                    - Collaborated with Australian Centre for Robotic Vision (ACRV) to develop a Franka-Emika Panda robotic arm<br/>
                     - Evaluate performance of ML architecture and write technical reports on scientific findings
                     </p>
                 </VerticalTimelineElement>
