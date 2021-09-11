@@ -1,5 +1,5 @@
 import Lottie from 'react-lottie';
-import * as animationData from './74468-rocket.json'
+import * as animationData from './75789-pot-plant.json'
 
 export default function Preloader() {
   
@@ -18,7 +18,7 @@ export default function Preloader() {
               height={250}
               width={250}
               isClickToPauseDisabled={true}/>
-            <h3 style={{color:'#15023a'}}>Loading...</h3>
+            {/* <h3 style={{color:'#15023a'}}>Loading...</h3> */}
             
         </div>
     )

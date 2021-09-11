@@ -5,7 +5,7 @@ export default function Footer() {
     return (
         <div className="footer">
             <div className="credit">
-                <h3>Credits<br/>Rocket by Lex Komkov on LottieFiles<br/>Robot by Mikhail Voloshin on LottieFiles<br/>Typing by Santiago Pasciullo on LottieFiles</h3>
+                <h3>Credits<br/>Plant by Sheikh Sohel on LottieFiles<br/>Robot by Mikhail Voloshin on LottieFiles<br/>Typing by Santiago Pasciullo on LottieFiles</h3>
             </div>
             <div className="wrapper">
                 
