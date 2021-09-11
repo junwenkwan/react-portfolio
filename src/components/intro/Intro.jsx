@@ -35,10 +35,8 @@ export default function Intro() {
                     isClickToPauseDisabled={true}
                     />
                 </div>
-                
-                <h2>Hi, my name is</h2>
-                <h1>Jun Kwan</h1>
-                <h3>I am a <span ref={textRef}></span></h3>
+            
+                <h2>I am a <span ref={textRef}></span></h2>
             </div>
         </div>
     )
