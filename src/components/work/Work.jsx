@@ -19,10 +19,7 @@ export default function Work() {
                     <h3 className="vertical-timeline-element-title">Graduate Software Engineer</h3>
                     <h4 className="vertical-timeline-element-subtitle">Williamstown, Victoria, Australia</h4>
                     <h4 className="vertical-timeline-element-subtitle">Mar 2021 - Sep 2021</h4>
-                    <p>
-                    - Develop deep learning solutions for object detection and classification from high-resolution imagery <br/>
-                    - Deploy deep learning solutions on NVIDIA Jetson hardware devices
-                    </p>
+                    <p>Develop deep learning solutions for object detection and classification from high-resolution imagery</p>
                 </VerticalTimelineElement>
 
                 <VerticalTimelineElement
@@ -35,10 +32,7 @@ export default function Work() {
                     <h3 className="vertical-timeline-element-title">Junior Deep Learning Consultant</h3>
                     <h4 className="vertical-timeline-element-subtitle">Clayton, Victoria, Australia</h4>
                     <h4 className="vertical-timeline-element-subtitle">Sep 2020 - May 2021</h4>
-                    <p>
-                    - Design deep learning algorithms to recognize defects in metal 3D printing <br/>
-                    - Deliver commercial software product to be deployed on cloud
-                    </p>
+                    <p>Design deep learning algorithms to recognize defects in metal 3D printing</p>
                 </VerticalTimelineElement>
 
                 <VerticalTimelineElement
@@ -51,10 +45,7 @@ export default function Work() {
                     <h3 className="vertical-timeline-element-title">Research Assistant</h3>
                     <h4 className="vertical-timeline-element-subtitle">Clayton, Victoria, Australia</h4>
                     <h4 className="vertical-timeline-element-subtitle">Dec 2019 - Dec 2020</h4>
-                    <p>
-                    - Collaborated with Australian Centre for Robotic Vision (ACRV) to develop a Franka-Emika Panda robotic arm<br/>
-                    - Evaluate performance of ML architecture and write technical reports on scientific findings
-                    </p>
+                    <p>Collaborated with Australian Centre for Robotic Vision (ACRV) to develop a Franka-Emika Panda robotic arm</p>
                 </VerticalTimelineElement>
                 
                 </VerticalTimeline>
