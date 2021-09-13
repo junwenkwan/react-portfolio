@@ -32,8 +32,8 @@
     }
 
     .card {
-      width: 180px;
-      height: 70%;
+      width: 190px;
+      height: 80%;
       border-radius: 10px;
       display: flex;
       flex-direction: column;
@@ -64,8 +64,8 @@
       }
 
       &.featured{
-          width: 180px;
-          height: 75%;
+          width: 190px;
+          height: 80%;
           margin: 0 20px;
 
           @include mobile{
