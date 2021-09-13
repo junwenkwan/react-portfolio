@@ -11,8 +11,8 @@ export default function Skills() {
                     <h3>Python</h3>
                 </div>
                 <div className="item">
-                    <img src="../assets/cpp.svg" alt="" draggable="false"/>
-                    <h3>C++</h3>
+                    <img src="../assets/c.svg" alt="" draggable="false"/>
+                    <h3>C</h3>
                 </div>
                 <div className="item">
                     <img src="../assets/sql.svg" alt="" draggable="false"/>
