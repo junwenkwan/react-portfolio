@@ -1,18 +1,24 @@
 @import "../../global.scss";
 
 .footer{
-    width:100%;
+    width: 100%;
     background-color: $maincolor;
-    color: $maincolor;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     
     .credit{
-        padding: 10px 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
         display: flex;
-        align-items: center;
-        justify-content: left;
+        flex-direction: column;
+        justify-content: center;
+    
         h3{
             font-size: 18px;
             color: white;
+            text-align: center;
 
             @include mobile{
                 font-size: 14px;
@@ -20,29 +26,28 @@
         }
     }
 
-    .wrapper{
-        padding: 10px 20px;
-        display: flex;
-        align-items: center;
-        justify-content: left;
-        
-        h3{
-            font-size: 18px;
-            color: white;
-
+    .icon{
+        padding-bottom: 50px;
+        .linkedin{
+            height: 45px;
+            width: 45px;
+            
             @include mobile{
-                font-size: 14px;
+              width: 30px;
+              height: 30px;
             }
         }
-
-        .icon{
-            width: 50px;
-            padding-right: 5px;
+        .mail{
+            height: 45px;
+            width: 45px;
+            
             @include mobile{
-                width: 30px;
+              width: 30px;
+              height: 30px;
             }
         }
 
     }
+
 
 }
