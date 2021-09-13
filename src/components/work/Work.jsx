@@ -11,8 +11,8 @@ export default function Work() {
             <VerticalTimeline layout={"1-column-left"}>
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
-                    contentStyle={{ background: '#15023a', color: '#fff' }}
-                    iconStyle={{ background: '#15023a', color: '#fff' }}
+                    contentStyle={{ background: '#202124', color: '#fff' }}
+                    iconStyle={{ background: '#202124', color: '#fff' }}
                     icon={<WorkIcon/>}
                 >
                     <h2 className="vertical-timeline-element-company">Ideas at Sea (IAS APAC)</h2>
@@ -24,8 +24,8 @@ export default function Work() {
 
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
-                    contentStyle={{ background: '#15023a', color: '#fff' }}
-                    iconStyle={{ background: '#15023a', color: '#fff' }}
+                    contentStyle={{ background: '#202124', color: '#fff' }}
+                    iconStyle={{ background: '#202124', color: '#fff' }}
                     icon={<WorkIcon/>}
                 >
                     <h2 className="vertical-timeline-element-company">Independent Contractor</h2>
@@ -37,8 +37,8 @@ export default function Work() {
 
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
-                    contentStyle={{ background: '#15023a', color: '#fff' }}
-                    iconStyle={{ background: '#15023a', color: '#fff' }}
+                    contentStyle={{ background: '#202124', color: '#fff' }}
+                    iconStyle={{ background: '#202124', color: '#fff' }}
                     icon={<WorkIcon/>}
                 >
                     <h2 className="vertical-timeline-element-company">Monash University</h2>
