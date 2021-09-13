@@ -1,6 +1,6 @@
 import "./about.scss"
 import Lottie from 'react-lottie';
-import * as animationData from './74635-codework.json'
+import * as animationData from './63487-programming-computer.json'
 
 export default function About() {
     const defaultOptions = {

@@ -9,7 +9,7 @@ export default function Footer() {
                 <h3>Credits</h3>
                 <h3>Plant by S. Sohel</h3>
                 <h3>Robot by M. Voloshin</h3>
-                <h3>Typing by S. Pasciullo</h3>
+                <h3>Laptop by V. Sontakke</h3>
                 <h3>on LottieFiles</h3>
                 <h3>under CC BY 2.0</h3>
             </div>
