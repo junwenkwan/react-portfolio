@@ -23,8 +23,8 @@ export default function Skills() {
                     <h3>Git</h3>
                 </div>
                 <div className="item">
-                    <img src="../assets/linux.svg" alt="" draggable="false"/>
-                    <h3>Linux</h3>
+                    <img src="../assets/ubuntu.svg" alt="" draggable="false"/>
+                    <h3>Ubuntu</h3>
                 </div>
                 <div className="item">
                     <img src="../assets/jupyter.svg" alt="" draggable="false"/>
