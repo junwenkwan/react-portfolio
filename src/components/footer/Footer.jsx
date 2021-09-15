@@ -1,6 +1,7 @@
 import "./footer.scss"
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import MailIcon from '@material-ui/icons/Mail';
+import GitHubIcon from '@material-ui/icons/GitHub';
 
 export default function Footer() {
     return (
@@ -13,9 +14,10 @@ export default function Footer() {
                 <h3>on LottieFiles</h3>
                 <h3>under CC BY 2.0</h3>
             </div>
-            <div className="icon">
-                <a href={"https://www.linkedin.com/in/junwenkwan/"} target="_blank" rel="noreferrer"><LinkedInIcon className='linkedin' style={{ color: 'white' }}/></a>
-                <a href={"mailto:jkwan0001@gmail.com"} target="_blank" rel="noreferrer"><MailIcon className='mail' style={{ color: 'white' }}/></a>
+            <div className="iconList">
+                <a href={"https://www.linkedin.com/in/junwenkwan/"} target="_blank" rel="noreferrer"><LinkedInIcon className='icon' style={{ color: 'white' }}/></a>
+                <a href={"https://github.com/junwenkwan"} target="_blank" rel="noreferrer"><GitHubIcon className='icon' style={{ color: 'white' }}/></a>
+                <a href={"mailto:jkwan0001@gmail.com"} target="_blank" rel="noreferrer"><MailIcon className='icon' style={{ color: 'white' }}/></a>
             </div>
         </div>
     )
