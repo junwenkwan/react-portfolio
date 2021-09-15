@@ -2,7 +2,7 @@ import "./intro.scss"
 import {init} from 'ityped'
 import { useEffect, useRef } from "react";
 import Lottie from 'react-lottie';
-import * as animationData from './39701-robot-bot-3d.json'
+import * as animationData from './37270-robot-says-hi.json'
 
 export default function Intro() {
     const textRef = useRef()
@@ -30,9 +30,10 @@ export default function Intro() {
             <div className="wrapper">
                 <div className="container">
                     <Lottie options={defaultOptions}
-                    height={300}
-                    width={300}
+                    height={400}
+                    width={400}
                     isClickToPauseDisabled={true}
+                    className="robot"
                     />
                 </div>
             
