@@ -8,11 +8,11 @@ export default function Footer() {
         <div className="footer">
             <div className="credit">
                 <h3>Credits</h3>
-                <h3>Plant by S. Sohel</h3>
+                <h3>Loading by J. Bulle</h3>
                 <h3>Robot by M. Voloshin</h3>
                 <h3>Laptop by V. Sontakke</h3>
                 <h3>on LottieFiles</h3>
-                <h3>under CC BY 2.0</h3>
+                <h3>under CC BY</h3>
             </div>
             <div className="iconList">
                 <a href={"https://www.linkedin.com/in/junwenkwan/"} target="_blank" rel="noreferrer"><LinkedInIcon className='icon' style={{ color: 'white' }}/></a>
