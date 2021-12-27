@@ -16,12 +16,12 @@
         justify-content: center;
     
         h3{
-            font-size: 18px;
+            font-size: 16px;
             color: white;
             text-align: center;
 
             @include mobile{
-                font-size: 14px;
+                font-size: 12px;
             }
         }
     }
