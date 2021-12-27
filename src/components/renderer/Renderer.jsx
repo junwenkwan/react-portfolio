@@ -23,7 +23,7 @@ class Model extends Component {
     var torus = new THREE.Mesh(geometry, material);
     scene.add(torus);
 
-    camera.position.z = 15;
+    camera.position.z = 20;
 
     var animate = function() {
       requestAnimationFrame(animate);
