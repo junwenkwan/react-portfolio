@@ -1,4 +1,5 @@
 import Intro from "./components/intro/Intro"
+import Renderer from "./components/renderer/Renderer"
 import About from "./components/about/About"
 import Work from "./components/work/Work"
 import Projects from "./components/projects/Projects"
@@ -16,6 +17,7 @@ function App() {
           <Work/>       
           <Skills/>
           <Projects/>
+          <Renderer/>
           <Footer/>
         </div>
       }
