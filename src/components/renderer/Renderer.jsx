@@ -18,7 +18,7 @@ class Model extends Component {
     renderer.setSize(window.innerWidth/2, window.innerHeight/2);
     this.mount.appendChild(renderer.domElement);
 
-    var geometry = new THREE.TorusGeometry(5, 2, 10, 50);
+    var geometry = new THREE.TorusGeometry(5, 2, 9, 25);
     var material = new THREE.MeshStandardMaterial( {color: 0xFFFFFF, wireframe: true});
     var torus = new THREE.Mesh(geometry, material);
     scene.add(torus);
@@ -28,9 +28,9 @@ class Model extends Component {
     var animate = function() {
       requestAnimationFrame(animate);
 
-      torus.rotation.x += 0.01;
-      torus.rotation.y += 0.01;
-      torus.rotation.z += 0.01;
+      torus.rotation.x += 0.015;
+      torus.rotation.y += 0.015;
+      torus.rotation.z += 0.015;
 
       renderer.render(scene, camera);
     };
